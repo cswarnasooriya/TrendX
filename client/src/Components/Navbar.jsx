@@ -26,10 +26,10 @@ const Navbar = () => {
                     </div>
                 </div>
                 <ul className=" flex-1 flex justify-center items-center xl:gap-12 gap-x-6 max-lg:hidden">
-                    <a href="#" className="leading-normal no-underline text-black font-bold text-lg hover:text-secondary">Blog</a>
-                    <a href="#" className="leading-normal no-underline text-black font-bold text-lg hover:text-secondary">Shop</a>
-                    <a href="#" className="leading-normal no-underline text-black font-bold text-lg hover:text-secondary">Contact</a>
-                    <a href="#" className="leading-normal no-underline text-black font-bold text-lg hover:text-secondary">Products</a>
+                    <a href="" className="leading-normal no-underline text-black font-bold text-lg hover:text-secondary">Blog</a>
+                    <a href="" className="leading-normal no-underline text-black font-bold text-lg hover:text-secondary">Shop</a>
+                    <a href="" className="leading-normal no-underline text-black font-bold text-lg hover:text-secondary">Contact</a>
+                    <a href="" className="leading-normal no-underline text-black font-bold text-lg hover:text-secondary">Products</a>
                     
                 </ul>
                 <div className="flex max-lg:hidden gap-x-4">
@@ -63,12 +63,12 @@ const Navbar = () => {
                             <a href="#" className="leading-normal no-underline text-black font-bold text-lg hover:text-primary">Products</a>
                         </ul>
 
-                        <div className="">
-                                           <button >
+                        <div className="flex flex-col justify-center items-center w-full gap-y-8 mt-4">
+                            <button className="bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary" >
                                 <FiShoppingBag size={18}/>
                             </button>
 
-                            <button>
+                            <button className="bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary">
                                 <FaUser size={18}/>
                             </button>
                         </div>
